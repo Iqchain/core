@@ -210,9 +210,9 @@ alias ark="$HOME/core-bridgechain/packages/core/bin/run"
 echo 'alias iqchain="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashrc
 
 rm -rf "$HOME/core-bridgechain"
-git clone "https://github.com/IQCHAIN" "$HOME/core-bridgechain" || FAILED="Y"
+git clone "https://github.com/Iqchain/core" "$HOME/core-bridgechain" || FAILED="Y"
 if [ "$FAILED" == "Y" ]; then
-    echo "Failed to fetch core repo with origin 'https://github.com/IQCHAIN'"
+    echo "Failed to fetch core repo with origin 'https://github.com/Iqchain/core'"
 
     exit 1
 fi
